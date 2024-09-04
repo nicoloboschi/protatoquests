@@ -1,5 +1,17 @@
 # `requests-anon`
 
+<p align="center">
+  <a href="https://pypi.org/project/requests-anon/">
+    <img src="https://img.shields.io/pypi/v/requests-anon?color=green&amp;label=pypi%20package" alt="PyPI">
+  </a>
+  <a href="https://pepy.tech/project/requests-anon">
+    <img src="https://static.pepy.tech/badge/requests-anon" alt="Downloads">
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/pypi/pyversions/requests-anon?color=green" alt="Py versions">
+  </a>
+</p>
+
 Execute HTTPS requests to a server using anonymous proxies.
 The intended usage is to by-pass server's IP Blocking while scraping data from API or webpages.
 It's important to note that using anonymous proxies is **risky**, **unsafe** and will cause **credentials leaks**.
