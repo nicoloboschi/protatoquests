@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "requests-anon"
+version = "0.1.0"
+description = "Execute HTTPS requests to a server using anonymous proxies."
+authors = ["Nicolò Boschi <boschi1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = {extras = ["socks"], version = "^2.32.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
