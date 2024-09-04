@@ -14,12 +14,12 @@ pip install requests-anon
 
 ```python
 import requests
-from requests_anon import request_with_anon_proxy_unsafe
+from requests_anon import anon_request
 
 # this one will contact the server directly
 response = requests.get("https://google.com")
 # this one will contact the server using an anonymous proxy 
-response = request_with_anon_proxy_unsafe("get", "https://google.com")
+response = anon_request("get", "https://google.com")
 ```
 
 ## Considerations
