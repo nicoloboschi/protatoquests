@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "protatoquests"
-version = "1.0.1"
+version = "1.0.2"
 description = "Automatic proxy rotation for anonymous web requests."
 authors = ["Nicolò Boschi <boschi1997@gmail.com>"]
 license = "MIT"
