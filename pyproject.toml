@@ -3,7 +3,11 @@ name = "protatoquests"
 version = "1.0.1"
 description = "Automatic proxy rotation for anonymous web requests."
 authors = ["Nicolò Boschi <boschi1997@gmail.com>"]
+license = "MIT"
 readme = "README.md"
+keywords = ["scraping", "webscraping", "proxy", "socks5", "requests", "http"]
+repository = "https://github.com/nicoloboschi/protatoquests"
+documentation = "https://github.com/nicoloboschi/protatoquests"
 
 [tool.poetry.dependencies]
 python = "^3.9"

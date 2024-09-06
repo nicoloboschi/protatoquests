@@ -40,8 +40,10 @@ response = protatoquests.get("https://google.com")
 
 ## Considerations
 
-The library gets socks5 free proxies from [https://advanced.name/freeproxy](https://advanced.name/freeproxy).
+1. The library gets socks5 **free** proxies from [https://advanced.name/freeproxy](https://advanced.name/freeproxy).
 It tries to use the first proxy available, if it fails, it tries the next one; therefore the **latency will be higher** than using a single proxy or no proxy at all.
+2. The library API is intended as a drop-in replacement for the `requests` library, although not all the methods are implemented.
+
 
 ## Contributing
-Any contribution is welcome! Please open a PR with your changes.
+Contributions to the [GitHub repository](https://github.com/nicoloboschi/protatoquests) are welcome! Please open a PR with your changes.
