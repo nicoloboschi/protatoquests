@@ -11,8 +11,12 @@
     <img src="https://img.shields.io/pypi/pyversions/protatoquests?color=green" alt="Py versions">
   </a>
 </p>
-
+<hr>
+<p align="center" style="font-size: 14px;">
 Automatic proxy rotation for anonymous web requests.
+</p>
+<hr>
+
 The intended usage is to by-pass server's IP blocking by using a pool of free proxies to perform requests and web scraping.
 It's important to note that using anonymous proxies is **risky**, **unsafe** and will cause **credentials leaks**.
 
