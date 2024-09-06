@@ -1,16 +1,25 @@
 [tool.poetry]
-name = "requests-anon"
-version = "0.1.1"
-description = "Execute HTTPS requests to a server using anonymous proxies."
+name = "protatoquests"
+version = "1.0.0"
+description = "Automatic proxy rotation for anonymous web requests."
 authors = ["Nicolò Boschi <boschi1997@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
 requests = {extras = ["socks"], version = "^2.32.3"}
+beautifulsoup4 = "^4"
 
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s %(levelname)s %(message)s"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
